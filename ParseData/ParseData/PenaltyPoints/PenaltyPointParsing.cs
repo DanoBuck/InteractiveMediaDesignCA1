@@ -9,8 +9,8 @@ namespace ParseData.PenaltyPoints
         public static void ParseAllDataIntoDifferentFormatsForPenaltyPointDataForFirstStage()
         {
             List<string> listOfSections = new List<string>();
-            var values = File.ReadAllLines("C:\\Users\\Daniel\\Desktop\\College Work\\InteractiveMediaDesign\\CA1\\PenaltyPointsData\\PenaltyPointsParsingCSV.csv");
-            StreamWriter sw = new StreamWriter("C:\\Users\\Daniel\\Desktop\\College Work\\InteractiveMediaDesign\\CA1\\PenaltyPointsData\\MonthByMonthPenaltyPointParsing.txt");
+            var values = File.ReadAllLines("C:\\Users\\Daniel\\Desktop\\College Work\\InteractiveMediaDesign\\InteractiveMediaDesignCA1\\PenaltyPointsData\\PenaltyPointsParsingCSV.csv");
+            StreamWriter sw = new StreamWriter("C:\\Users\\Daniel\\Desktop\\College Work\\InteractiveMediaDesign\\InteractiveMediaDesignCA1\\PenaltyPointsData\\MonthByMonthPenaltyPointParsing.txt");
             string holdThisHere = "";
 
             int counter = 0;
@@ -56,8 +56,8 @@ namespace ParseData.PenaltyPoints
         public static void ParseBlanksAndDashesForPenaltyPointDataForSecondStage()
         {
             List<string> listOfSections = new List<string>();
-            var values = File.ReadAllLines("C:\\Users\\Daniel\\Desktop\\College Work\\InteractiveMediaDesign\\CA1\\PenaltyPointsData\\PenaltyPointsParsingCSV.csv");
-            StreamWriter sw = new StreamWriter("C:\\Users\\Daniel\\Desktop\\College Work\\InteractiveMediaDesign\\CA1\\PenaltyPointsData\\MonthByMonthPenaltyPointParsingBlanksAndDashes.csv");
+            var values = File.ReadAllLines("C:\\Users\\Daniel\\Desktop\\College Work\\InteractiveMediaDesign\\InteractiveMediaDesignCA1\\PenaltyPointsData\\PenaltyPointsParsingCSV.csv");
+            StreamWriter sw = new StreamWriter("C:\\Users\\Daniel\\Desktop\\College Work\\InteractiveMediaDesign\\InteractiveMediaDesignCA1\\PenaltyPointsData\\MonthByMonthPenaltyPointParsingBlanksAndDashes.csv");
 
             char[] charArray;
             string holdThisHere = "";
