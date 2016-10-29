@@ -99,7 +99,7 @@ namespace ParseData.HelpfulFunctions
         {
             string[] months = { "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" };
 
-            StreamWriter sw = new StreamWriter("C:\\Users\\Daniel\\Desktop\\College Work\\InteractiveMediaDesign\\InteractiveMediaDesignCA1\\PenaltyPointsData\\Months.txt");
+            StreamWriter sw = new StreamWriter("C:\\Users\\Daniel\\Desktop\\College Work\\InteractiveMediaDesign\\InteractiveMediaDesignCA1\\DataSets\\PenaltyPointsData\\Months.txt");
 
 
             for (int i = 0; i < months.Length; i++)
