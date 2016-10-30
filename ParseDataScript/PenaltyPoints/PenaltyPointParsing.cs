@@ -11,17 +11,12 @@ namespace ParseData.PenaltyPoints
             List<string> listOfSections = new List<string>();
             var values = File.ReadAllLines("C:\\Users\\Daniel\\Desktop\\College Work\\InteractiveMediaDesign\\InteractiveMediaDesignCA1\\PenaltyPointsData\\PenaltyPointsParsingCSV.csv");
             StreamWriter sw = new StreamWriter("C:\\Users\\Daniel\\Desktop\\College Work\\InteractiveMediaDesign\\InteractiveMediaDesignCA1\\PenaltyPointsData\\MonthByMonthPenaltyPointParsing.txt");
+
             string holdThisHere = "";
-
             int counter = 0;
-            // make into char array
-            char[] charArray;
-
             int cycles = 29;
-
             for (int i = 0; i < values.Length; i++)
             {
-                charArray = values[i].ToCharArray();
                 holdThisHere = "";
                 for (int j = 0; j < 1; j++)
                 {
@@ -59,13 +54,11 @@ namespace ParseData.PenaltyPoints
             var values = File.ReadAllLines("C:\\Users\\Daniel\\Desktop\\College Work\\InteractiveMediaDesign\\InteractiveMediaDesignCA1\\DataSets\\PenaltyPointsData\\PenaltyPointsParsingCSV.csv");
             StreamWriter sw = new StreamWriter("C:\\Users\\Daniel\\Desktop\\College Work\\InteractiveMediaDesign\\InteractiveMediaDesignCA1\\DataSets\\PenaltyPointsData\\MonthByMonthPenaltyPointParsingBlanksAndDashes.csv");
 
-            char[] charArray;
             string holdThisHere = "";
             int counter = 0;
             int cycles = 29;
             for (int i = 0; i < values.Length; i++)
             {
-                charArray = values[i].ToCharArray();
                 holdThisHere = "";
                 for (int j = 0; j < 1; j++)
                 {
