@@ -18,8 +18,10 @@ namespace ParseData
             //}
             //ParsingFunctions.PrintOutMonths29Times();
             //PenaltyPointParsing.ParseBlanksAndDashesForPenaltyPointData();
-            PenaltyPointParsing.ParseBlanksAndDashesForPenaltyPointDataForSecondStage();
-
+            //PenaltyPointParsing.ParseBlanksAndDashesForPenaltyPointDataForSecondStage();
+            ParsingFunctions.PrintOutMonthYearAndTime("2014");
+            ParsingFunctions.PrintOutMonthYearAndTime("2015");
+            ParsingFunctions.PrintOutMonthYearAndTime("2016");
         }
     }
 }

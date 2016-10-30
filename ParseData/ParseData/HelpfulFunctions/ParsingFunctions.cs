@@ -111,5 +111,24 @@ namespace ParseData.HelpfulFunctions
             }
             sw.Close();
         }
+
+        public static void PrintOutMonthYearAndTime(string year)
+        {
+            for(int i = 1; i < 13; i++)
+            {
+                for(int j = 0; j < 1; j++)
+                {
+                    if (i < 10)
+                    {
+                        Console.WriteLine("01/0" + i + "/" + year + " 00:00:00");
+                    }
+                    else
+                    {
+                        Console.WriteLine("01/" + i + "/" + year + " 00:00:00");
+                    }
+                }
+            }
+        }
     }
+
 }
