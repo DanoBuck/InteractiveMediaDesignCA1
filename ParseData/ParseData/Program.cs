@@ -22,6 +22,10 @@ namespace ParseData
             ParsingFunctions.PrintOutMonthYearAndTime("2014");
             ParsingFunctions.PrintOutMonthYearAndTime("2015");
             ParsingFunctions.PrintOutMonthYearAndTime("2016");
+            for (int i = 1998; i <= 2016; i++)
+            {
+                ParsingFunctions.PrintOutMonthYearAndTime(i.ToString());
+            }
         }
     }
 }
